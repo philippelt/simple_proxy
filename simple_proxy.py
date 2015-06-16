@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author : philippelt@sourceforge.net
+# Author : philippelt@users.sourceforge.net
 
 import os, sys, socket, textwrap, threading, zlib
 from datetime import datetime
