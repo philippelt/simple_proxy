@@ -181,7 +181,7 @@ class ProxyHandler:
     def targetConnect(self):
         debugTrace("targetConnect")
 
-        if b";" in self.targetHostPort :
+        if b":" in self.targetHostPort :
             targetHost, targetPort = targetHostPort.split(b":")
             targetPort = int(targetPort)
         else:
